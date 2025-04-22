@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-// import Header from "../Header/Header.jsx";
+import Header from "../Header/Header.jsx";
 import css from "./SharedLayout.module.css";
 
 export default function SharedLayout({ children }) {
@@ -12,7 +12,7 @@ export default function SharedLayout({ children }) {
 
   return (
     <div className={containerClass}>
-      {/* <Header /> */}
+      <Header />
       <main className={css.section}>{children}</main>
     </div>
   );
