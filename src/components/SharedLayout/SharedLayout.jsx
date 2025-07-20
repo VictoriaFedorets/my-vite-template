@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import Header from "../Header/Header.jsx";
+import Header from "../Header/Header";
 import css from "./SharedLayout.module.css";
 
 export default function SharedLayout({ children }) {
